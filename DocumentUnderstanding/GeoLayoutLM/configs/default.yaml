@@ -1,14 +1,14 @@
 # For workspace name
 # The checkpoint file location to be saved: {workspace}/checkpoints/
 # The log file location to be saved: {workspace}/tensorboard_logs/
-workspace: ./finetune
+workspace: workspace/funsd/
 
 dataset: funsd
 task: ee_el
 
-dataset_root_path: ./datasets/funsd
+dataset_root_path: workspace/funsd/dataset/
 
-pretrained_model_path: ./pretrained_models
+pretrained_model_path: workspace/funsd/
 
 seed: 1
 cudnn_deterministic: False
