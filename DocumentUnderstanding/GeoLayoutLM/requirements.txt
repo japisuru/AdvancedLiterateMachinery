@@ -28,3 +28,8 @@ black==21.9b0
 # torchvision==0.10.1+cu102
 
 jedi>=0.16
+setuptools>65.5.1
+fastapi
+kaleido
+python-multipart
+uvicorn
